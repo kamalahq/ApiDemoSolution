@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemo.Intro", "ApiDemo.Intro\ApiDemo.Intro.csproj", "{1B920FD9-938D-461F-A607-FA77BCD76428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemo.FromEmpty", "ApiDemo.FromEmpty\ApiDemo.FromEmpty.csproj", "{472D1C8B-D87D-41A1-B41D-AE9A38C82F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemo.FromEmpty", "ApiDemo.FromEmpty\ApiDemo.FromEmpty.csproj", "{472D1C8B-D87D-41A1-B41D-AE9A38C82F2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapAsmxIntro", "SoapAsmxIntro\SoapAsmxIntro.csproj", "{468A1D4C-FBC0-4372-B172-1701F4DB3DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer.App", "Consumer.App\Consumer.App.csproj", "{0026D214-C77F-420C-9D04-9CA301438C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer.App", "Consumer.App\Consumer.App.csproj", "{0026D214-C77F-420C-9D04-9CA301438C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemoRiode", "ApiDemoRiode\ApiDemoRiode.csproj", "{BF3D12A6-CBF8-417D-8949-89EB54FFECF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0026D214-C77F-420C-9D04-9CA301438C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0026D214-C77F-420C-9D04-9CA301438C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0026D214-C77F-420C-9D04-9CA301438C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3D12A6-CBF8-417D-8949-89EB54FFECF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3D12A6-CBF8-417D-8949-89EB54FFECF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3D12A6-CBF8-417D-8949-89EB54FFECF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3D12A6-CBF8-417D-8949-89EB54FFECF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
